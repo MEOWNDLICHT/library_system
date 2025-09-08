@@ -25,10 +25,8 @@ A CLI-based simulation of digital library system that supports basic CRUD operat
 
 ## How Does It Work?  
 
-IDK yet.  
-Still a WIP. I kind of want to abandon this sht.  
-The service layer is giving me a headache.  
-Some methods work, but spaghetti code is lurking. Needs cleanup.  
+Boot the program thru main.py and pretty much everything you need to know will be greeting you there.  
+Good luck running it tho.  
 
 ---
 
@@ -46,10 +44,9 @@ model - where the basic blueprints for accounts, users, and such are handled
 
 ## Project Status  
 
-This project is almost done.  
-Just need to test everything and it should work relatively okayish.  
-It might still break if you deliberately try to do it. But overall it should be fine.  
-I don't wanna continue this anymore.  
+Project is done. (mostly)  
+Still needs some polish and cleanup.  
+May break if you deliberately with around with it.   
 
 ---
 
