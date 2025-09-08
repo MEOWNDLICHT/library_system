@@ -46,7 +46,7 @@ model - where the basic blueprints for accounts, users, and such are handled
 
 Project is done. (mostly)  
 Still needs some polish and cleanup.  
-May break if you deliberately with around with it.   
+May break if you deliberately mess around with it.   
 
 ---
 
