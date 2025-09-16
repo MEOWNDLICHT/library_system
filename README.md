@@ -3,7 +3,6 @@
 A CLI-based simulation of digital library system that supports basic CRUD operations for managing books, users, authors, and borrowing information. Users are authenticated and given access to varying operations based on their role (librarian/member). Everything about this program is made unnecessarily complex. This has no real value other than for educational purposes.   
 
 ---
-
 ## Roles and Access  
 ### General  
 - Can see if a book is available for borrow  
@@ -22,14 +21,12 @@ A CLI-based simulation of digital library system that supports basic CRUD operat
 - Can update borrow-related information  
 
 ---
-
 ## How Does It Work?  
 
 Boot the program thru main.py and pretty much everything you need to know will be greeting you there.  
 Good luck running it tho.  
 
 ---
-
 ## Project Structure / Flow  
 #### main.py -> presentaion -> services -> data -> model  
 
@@ -41,13 +38,8 @@ data - where data is stored and updated
 model - where the basic blueprints for accounts, users, and such are handled  
 
 ---
-
 ## Project Status  
 
 Project is done. (mostly)  
 Still needs some polish and cleanup.  
 May break if you deliberately mess around with it.   
-
----
-
-### GOODNIGHT~
