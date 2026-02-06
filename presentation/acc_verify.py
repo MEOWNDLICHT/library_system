@@ -14,15 +14,20 @@ DEFAULT_DATASETS = {'accounts': {},
 linebreak = "\n-----------------------------------------------------------------------------\n"
 
 
+def create_json_storage(file='data/storage.json'):
+    """ Creates the json file containing the data for accounts. """
+  # checks if the json file exists and sets the default data structures
+    if not os.path.exists(file):
+        with open(file, "w") as create_file:
+            json.dump(DEFAULT_DATASETS, create_file, indent=4)
+
+
 def login(file='data/storage.json'):
     """ Authenticates the user if they already have an existing account.
         
         Returns:
             attr: the user's role and name. """
-    # checks if the json file exists and sets the default data structures
-    if not os.path.exists(file):
-        with open(file, "w") as create_file:
-            json.dump(DEFAULT_DATASETS, create_file, indent=4)
+    create_json_storage()
 
     try:
         with open(file, "r") as f:
@@ -58,6 +63,7 @@ def login(file='data/storage.json'):
 
 def sign_up():
     """ Registers a new user into the database. Calls login after user creation is successful. """
+    create_json_storage()
     temporary_librarian_access = LibrarianServices()
     while True:
         try:

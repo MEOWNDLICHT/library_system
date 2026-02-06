@@ -5,7 +5,7 @@ from .actions import action
 
 
 class UserInteraction:
-    # for aethetic purposes
+    # for aesthetic purposes
     linebreak = "\n-----------------------------------------------------------------------------\n"
 
     def __init__(self):
