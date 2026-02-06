@@ -40,6 +40,4 @@ model - where the basic blueprints for accounts, users, and such are handled
 ---
 ## Project Status  
 
-Project is done. (mostly)  
-Still needs some polish and cleanup.  
-May break if you deliberately mess around with it.   
+Project is done. (or rather I am done with this sht)
